@@ -1,5 +1,8 @@
 import {Component} from 'react';
 class ClassBased extends Component {
+    handleClick() {
+        console.log('Button Clicked');
+    }
     render(){
         return (
             <div>
@@ -10,3 +13,4 @@ class ClassBased extends Component {
                 );
     }
 }
+export default ClassBased;

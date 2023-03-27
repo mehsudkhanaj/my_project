@@ -3,9 +3,12 @@ import "./App.css";
 // import Profile from "./components/profile";
 // import Resume from "./components/resume";
 // import Buzdar from "./components/buzdar";
+// import Counter from "./components/counter";
 // import Profile from "./components/profile1";
-import FunctionEvent from "./components/functionevent";
-import About from "./components/about";
+// import FunctionEvent from "./components/functionevent";
+// import About from "./components/about";
+// import ClassBased from "./components/ClassEvent";
+import Counter from "./components/FunctionalCounter";
 function App() {
   return (
       <div className="App">
@@ -17,8 +20,11 @@ function App() {
         {/* <Profile />
 
         <Buzdar/> */}
-        <FunctionEvent/>
+        {/* <FunctionEvent/>
         <About/>
+        <ClassBased/> */}
+        <Counter/>
+        
         
         
         
